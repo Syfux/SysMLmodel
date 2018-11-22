@@ -19,6 +19,28 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_F6YmgOjwEeiBGaYaJBAbIg" name="Afficher des prévisions"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_OJUW0OjwEeiBGaYaJBAbIg" name="Afficher des conseilles/Alertes"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_FlJGIO5dEeioIIXSOfUwYg" name="Afficher une information concernant la santé de la maison">
+      <include xmi:type="uml:Include" xmi:id="_OaumwO5dEeioIIXSOfUwYg" addition="_OaWzUO5dEeioIIXSOfUwYg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_F-_JgO5dEeioIIXSOfUwYg" name="Habitant de la maison"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OaWzUO5dEeioIIXSOfUwYg" name="Afficher la tempature">
+      <include xmi:type="uml:Include" xmi:id="_QC1NAO5dEeioIIXSOfUwYg" addition="_QCcygO5dEeioIIXSOfUwYg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_QCcygO5dEeioIIXSOfUwYg" name="Recuper la donné temperature du capteur"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_aZoowO5dEeioIIXSOfUwYg" memberEnd="_aZthQO5dEeioIIXSOfUwYg _aZuIUO5dEeioIIXSOfUwYg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aZrsEO5dEeioIIXSOfUwYg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aZsTIO5dEeioIIXSOfUwYg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_aZthQO5dEeioIIXSOfUwYg" name="afficher des indicateur détaillé" type="_-Lvf0OjvEeiBGaYaJBAbIg" association="_aZoowO5dEeioIIXSOfUwYg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_aZuIUO5dEeioIIXSOfUwYg" name="afficher une information concernant la santé de la maison" type="_FlJGIO5dEeioIIXSOfUwYg" association="_aZoowO5dEeioIIXSOfUwYg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_iYIwYO5dEeioIIXSOfUwYg" memberEnd="_iYMawO5dEeioIIXSOfUwYg _iYNB0O5dEeioIIXSOfUwYg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iYLzsO5dEeioIIXSOfUwYg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iYLzse5dEeioIIXSOfUwYg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_iYMawO5dEeioIIXSOfUwYg" name="afficher une information concernant la santé de la maison" type="_FlJGIO5dEeioIIXSOfUwYg" association="_iYIwYO5dEeioIIXSOfUwYg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_iYNB0O5dEeioIIXSOfUwYg" name="habitant de la maison" type="_F-_JgO5dEeioIIXSOfUwYg" association="_iYIwYO5dEeioIIXSOfUwYg"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_W0u7sOjYEeiBGaYaJBAbIg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W1FhAOjYEeiBGaYaJBAbIg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
